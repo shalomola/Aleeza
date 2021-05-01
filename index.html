@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aleeza's Kitchen</title>
+    <style>
+        body {
+            background: rgb(199, 107, 107);
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+            font-size: 20px
+            overflow: hidden;
+        }
+        h1,h2,h3 {
+            text-align: center;
+            padding-left: 5%;
+            color: black;
+            text-decoration: underline;
+        }
+        #wrapper {
+            margin: 0 auto;
+            max-width: 1020%;
+            width: 98%;
+            background-color: wheat;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(253, 235, 156, 0.2), 0 6px 20px 0 rgba(0,0,0,0.9);
+        }
+        p {
+            text-align: center;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-weight: bold;
+        }    
+        #callout {
+            width: 100%;
+            height: auto;
+            background: rgb(158, 2, 2);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            overflow: hidden;
+        }
+        #callout p {
+            float: right;
+            color: black;
+            padding: 0.1% 0.1% 0 0;
+            font-size: 13px;
+            margin-right: 8px;
+        }
+        header {
+            width: 100%;
+        }
+        .clearfix {
+            clear: both;
+        }
+        img {
+            width: 100%;
+        }
+        .section {
+            width: 260px;
+            border-radius: 80%;
+            text-align: center;
+            margin-left: 40%;
+            margin-right: 40%;
+        }
+        .section img {
+            border-radius: 50%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.9);
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 100px;
+        }
+        nav ul li {
+            float: left;
+            border: 2px solid wheat;
+            width: 18%;
+        }
+        nav ul li a {
+            background: rgb(133, 4, 4);
+            text-decoration: none;
+            display: block;
+            padding: 1% 12%;
+            font-weight: bold;
+            font-size: 18px;
+            color: wheat;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+            text-align: center;
+            border-radius: 5px;
+        }
+        nav ul li a:hover, nav ul li a.active {
+            background-color: wheat;
+            color: rgb(133, 4, 4);
+        }
+        /*............media..............*/
+        @media screen and (max-width: 470px) {
+            body {
+            font-size: 13px;
+            }
+        }
+        @media screen and (max-width: 740px) {
+            nav {
+            width: 100%;
+            margin-bottom: 10px;
+            }
+            nav ul {
+            list-style: none;
+            margin: 10px;
+            padding-left: 0;
+            }
+            nav ul li {
+            text-align: center;
+            margin-left: 0 auto;
+            margin-right: 0 auto;
+            width: 100%;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="callout">
+            <p>contact us: <b>09028779919</b></p>
+        </div>
+        <header>
+            <div class="x">
+            <img src="images/pancit.jpg" alt="Pancit image">
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="#">THE CHEF</a></li>           
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">ORDER</a></li>
+                <li><a href="#">TRAINING</a></li>
+            </ul>
+        <div class="clearfix"></div>
+        </nav>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Nesciunt, hic explicabo. Iure nihil fugit doloribus veniam necessitatibus temporibus cum beatae!</p>
+        <div class="clearfix"></div>            
+        <div class="section">
+            <h2>TRAINING</h2>
+            <img src="images/training1.JPG" alt="training">
+            <p>Lorem ipsum dolor sit amet consectetur adipisici. <br> Obcaecati accusantium deleniti mollitia inventore molestiae nisi natus? <br> Excepturi quis eveniet repellendus qui dolores vitae labore dolor itaque eaque saepe. Vel, nulla!</p>
+        </div>
+        <div class="section">
+            <h2>PASTRIES</h2>
+            <img src="images/meatpie.JPG" alt="pastries">
+            <p>Lorem ipsum dolor, <br> sit amet consectetur adipisicing elit. <br> Nam perspiciatis, <br> officiis cumque animi minus voluptas veniam laborum <br> dolorum reprehenderit dolor!</p>       
+        </div>
+        <div class="section">
+            <h2>MEALS</h2>
+            <img src="images/chicken1.jpg" alt="meals"> 
+            <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> Vero unde optio beatae animi, <br> delectus ab.</p>          
+        </div>
+        <footer>                        
+        <div class="container">
+            <span class="text1">GOODBYE</span>
+            <span class="text2">COME AGAIN</span>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
